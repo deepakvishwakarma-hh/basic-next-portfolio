@@ -1,0 +1,8 @@
+
+export default function Logo() {
+    return (
+        <div className="logo-wrapper">
+            <h1>ALEXJS</h1>
+        </div>
+    )
+}

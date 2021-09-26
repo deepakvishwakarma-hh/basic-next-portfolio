@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+@import "design.css";
+
+b {
+    color: rgb(37, 37, 37);
+}
+html{
+    scroll-behavior: smooth;
+}
+
+:root {
+    --toppPadding: 40vh;
+    --leftPadding: 3rem;
+    --fadeBlack: rgba(0, 0, 0, 0.24);
+
+}
+
+.wrapper {
+    overflow-x: hidden;
+}
+
+.logo-wrapper {
+    /* display: none; */
+    /* background: grey; */
+    transform: rotate(90deg);
+    margin: 3rem 0 0 -2.4rem;
+    letter-spacing: 5px;
+    position: absolute;
+    color: var(--fadeBlack);
+
+}
+
+.logo-wrapper h1 {
+    font-size: 3rem;
+    padding: .5rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* ......................................  */
+
+.menu-wrapper {
+    display: inline-block;
+    padding: var(--toppPadding) 0 0 0;
+}
+
+.menu-wrapper ul {
+    list-style-type: none;
+    color: black;
+}
+
+.menu-wrapper ul li a {
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'Bebas Neue', cursive;
+    padding: 0 0 0 var(--leftPadding);
+    letter-spacing: 1px;
+    color: black;
+}
+
+.menu-container {
+    background: var(--fadeBlack);
+}
+
+
+/* ......................................  */
+
+.intro-wrapper h1 {
+    font-size: 5rem;
+    padding: var(--toppPadding) 0 0 var(--leftPadding);
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+
+}
+
+/* ......................................  */
+.main-grid {
+    display: grid;
+    grid: auto / 70vw 30vw;
+}
+
+/* ......................................  */
+
+.scroll-wrapper {
+    padding: 0 0 0 0;
+    display: inline-block;
+    margin-left: var(--leftPadding);
+}
+
+.scroll-wrapper h5 {
+    padding: .5rem;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    /* font-family: 'Anton', sans-serif; */
+    letter-spacing: 1px;
+    font-weight: 100;
+
+}
+
+.scroll-arrow {
+    width: 100px;
+    height: 100px;
+}
+
+.arrow-line {
+    width: 2px;
+    height: 70px;
+    background: var(--fadeBlack);
+    margin-left: 9px;
+}
+
+.arrow-face {
+    width: 20px;
+    height: 20px;
+    border-bottom: 2px var(--fadeBlack) solid;
+    border-left: 2px var(--fadeBlack) solid;
+    transform: rotate(-45deg);
+    margin-top: -1.3rem;
+}
+
+
+
+.main-wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+.secondary {
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,57 @@
+.secondary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.secondary h1 {
+    color: white;
+    padding: 2rem;
+    letter-spacing: .5rem;
+    font-size: 4rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+@keyframes h1Ani {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        /* border: 1px white solid */
+        ;
+
+    }
+}
+
+.secondary h1 span {
+    animation: h1Ani 4s infinite;
+    display: block;
+
+}
+
+.secondary h1 span:nth-child(1) {
+    animation-delay: 1s;
+}
+
+.secondary h1 span:nth-child(2) {
+    animation-delay: 2s;
+}
+
+.secondary h1 span:nth-child(3) {
+    animation-delay: 3s;
+}
+
+.secondary h1 span:nth-child(4) {
+    animation-delay: 4s;
+}
+
+.secondary h1 span:nth-child(5) {
+    animation-delay: 5s;
+}
+
+.secondary h1 span:nth-child(6) {
+    animation-delay: 6s;
+}
