@@ -6,7 +6,7 @@ export default function MenuComp() {
             <ul>
                 <Self_component value="welcome" link="/"  />
                 <Self_component value="About" link="#about"  />
-                <Self_component value="Highlight" link="/"  />
+                <Self_component value="Highlight" link="#highlight"  />
                 <Self_component value="Project" link="/"  />
                 <Self_component value="Contact" link="/"  />
             </ul>
