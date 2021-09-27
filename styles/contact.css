@@ -1,0 +1,77 @@
+.contact {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.c-header {
+    height: 400px;
+    /* background: #59ADE8; */
+    background: url("/01.png");
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.c-main {
+    width: 50rem;
+    height: 25rem;
+    background: rgba(180, 45, 45, 0);
+    /* margin: -10rem auto; */
+    display: flex;
+    /* box-shadow: 2px 2px 10px 2px ; */
+}
+
+.cm-right {
+    background: #3F3D56;
+    width: 100%;
+    flex-shrink: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cm-right ul {
+    list-style-type: none;
+}
+
+.cm-right ul li {
+    margin: 1rem 0;
+}
+
+.cm-left {
+    background: #6C63FF;
+    width: 100%;
+}
+
+.cm-left h1 {
+    padding: 1rem;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+input,
+textarea {
+    display: block;
+    padding: .3rem;
+    margin: .5rem;
+    border-radius: .5rem;
+    border: none;
+}
+
+label {
+    color: white;
+    font-size: 1.4rem;
+}

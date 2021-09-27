@@ -6,4 +6,6 @@
 
 /* Component Styles */
 @import "main.css";
-
+@import "secondary.css";
+@import "highlight.css";
+@import "contact.css";

@@ -2,6 +2,8 @@ import emailjs from 'emailjs-com';
 import React, { useRef } from 'react';
 import { init } from 'emailjs-com';
 init("user_3HY1WiDySlOSVHux9qqkK");
+import Button from '@mui/material/Button';
+import TextField from '@mui/material/TextField';
 
 export default function SendEmail() {
     const form = useRef();
@@ -19,16 +21,16 @@ export default function SendEmail() {
     return (
         <form ref={form} onSubmit={sendtheEmail}>
             <div>
-                <label>Name</label>
-                <input type="text" name="name" />
+                <TextField id="standard-basic" label="Name" variant="standard" name="name" />
             </div>
-            <div><label>Email</label>
-                <input type="email" name="email" /></div>
             <div>
-                <label>Message</label>
-                <textarea name="message" />
+                <TextField id="standard-basic" label="Email" variant="standard" name="email" type="email" />
             </div>
-            <input type="submit" value="Send" />
+            <div>
+                <TextField id="standard-basic" label="Message" variant="standard" name="message" type="text" />
+            </div>
+            <br /><br />
+            <Button variant="primary" type="submit">Send Message</Button>
         </form>
     );
 

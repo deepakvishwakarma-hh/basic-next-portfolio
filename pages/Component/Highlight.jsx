@@ -19,8 +19,6 @@ export default function Highlight() {
                 <h3>express - basic</h3>
                 <h3>MONGoose - basic</h3>
                 </div>
-
-
             </div>
         </div>
     )
