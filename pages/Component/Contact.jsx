@@ -1,8 +1,8 @@
 import SendEmail from "./SendEmail"
 export default function Contact() {
     return (
-        <div className="contact">
-            <div className="c-main" id="contact">
+        <div className="contact" id="contact">
+            <div className="c-main" >
                 <div className="cm-left">
                     <SendEmail />
                 </div>

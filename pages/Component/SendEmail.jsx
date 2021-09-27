@@ -30,7 +30,7 @@ export default function SendEmail() {
                 <TextField id="standard-basic" label="Message" variant="standard" name="message" type="text" />
             </div>
             <br /><br />
-            <Button variant="primary" type="submit">Send Message</Button>
+            <Button variant="primary" type="submit" onClick={() => { alert("Sent") }}>Send Message</Button>
         </form>
     );
 
