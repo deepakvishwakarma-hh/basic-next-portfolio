@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background:url(/patternpad2.svg);
+    background: url(/patternpad2.svg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,17 +15,17 @@
     height: 25rem;
     background: rgba(180, 45, 45, 0);
     display: flex;
-    animation:cmainAni 1 1s linear;
-    /* border: 5px rgba(255, 255, 255, 0.541) solid; */
-    border-radius: 1rem;
-overflow: hidden;
+    animation: cmainAni 1 1s linear;
+    overflow: hidden;
+    padding: .3rem;
 }
 
 @keyframes cmainAni {
-    0%{
+    0% {
         opacity: 0;
     }
-    100%{
+
+    100% {
         opacity: 1;
 
     }
