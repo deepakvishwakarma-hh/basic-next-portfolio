@@ -2,7 +2,7 @@
 export default function Logo() {
     return (
         <div className="logo-wrapper">
-            <h1>Deepak</h1>
+            <h1>Deepakv</h1>
         </div>
     )
 }
